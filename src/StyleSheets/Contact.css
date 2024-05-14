@@ -1,0 +1,99 @@
+.contact {
+  flex-grow: 1;
+}
+
+.contact h1 {
+  margin-bottom: 0;
+}
+
+.contact-form {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-form p {
+  line-height: 1;
+}
+
+.contact-form-inputs {
+  min-height: 30vh;
+  display: flex;
+}
+
+.contact-form-inputs div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-form-inputs .left {
+  margin-right: 2em;
+}
+.contact-form-inputs .left input:first-of-type {
+  margin-bottom: 0.5rem;
+}
+
+.contact-form-inputs .right textarea {
+  text-wrap: wrap;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: right;
+}
+
+.submit-form-btn {
+  text-align: center;
+  width: 4rem;
+  background-color: var(--color-secondary-offset);
+  border: 0.1em solid var(--color-secondary);
+}
+
+.submit-form-btn:hover {
+  color: var(--color-bg-offset);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary-offset);
+}
+
+.success-pop-up {
+  z-index: 10;
+  padding: 4rem;
+  text-align: center;
+  margin: 0.25em;
+  border-radius: 1em;
+}
+
+.pop-up-overlay-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 601px) {
+  .contact-form-inputs {
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .contact input,
+  .contact textarea {
+    margin-bottom: 1rem !important;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 2rem;
+  }
+
+  .contact .right {
+    flex-grow: 1;
+  }
+}

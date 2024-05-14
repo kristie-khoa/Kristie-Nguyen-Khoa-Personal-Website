@@ -1,0 +1,23 @@
+.projects-container {
+  background-color: var(--color-border-offset);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.projects-proj-item {
+  list-style-type: none;
+
+  width: 100%;
+}
+.projects-proj-item:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 930px) {
+  .projects-proj-item > div {
+    display: flex;
+    flex-direction: column;
+  }
+}

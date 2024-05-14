@@ -1,0 +1,30 @@
+.blur-logo {
+  filter: blur(3px);
+  background-image: none;
+}
+
+.logo {
+  line-height: 105%;
+  font-size: 2.25rem;
+  font-family: var(--font-display);
+  align-self: last baseline;
+  padding: 0 0.15em;
+  background-image: linear-gradient(var(--color-border) 0 0);
+  background-position: 0 100%;
+  background-size: 100% 0.5em;
+  background-repeat: no-repeat;
+}
+.slogan {
+  font-size: 0.75rem;
+  align-self: last baseline;
+  margin-left: 0.5em;
+}
+.header-logo {
+  background-image: none;
+  margin-right: auto;
+  min-width: 233px;
+  align-self: center;
+  font-family: var(--font-basic);
+  font-weight: 700;
+  display: flex;
+}

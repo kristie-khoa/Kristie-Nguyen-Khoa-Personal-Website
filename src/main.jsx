@@ -14,19 +14,19 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       {
-        path: "/",
+        path: "/Kristie-Nguyen-Khoa-Personal-Website/",
         element: <Home />,
       },
       {
-        path: "/about",
+        path: "/Kristie-Nguyen-Khoa-Personal-Website/about",
         element: <About />,
       },
       {
-        path: "/projects",
+        path: "/Kristie-Nguyen-Khoa-Personal-Website/projects",
         element: <Projects />,
       },
       {
-        path: "/contact",
+        path: "/Kristie-Nguyen-Khoa-Personal-Website/contact",
         element: <Contact />,
       },
     ],

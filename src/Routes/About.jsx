@@ -63,7 +63,10 @@ function About() {
         </motion.h2>
       </motion.div>
       <div className="page-link-container">
-        <Link to="/projects" className="content-nav-link">
+        <Link
+          to="/Kristie-Nguyen-Khoa-Personal-Website/projects"
+          className="content-nav-link"
+        >
           Check out some of my projects {"-->"}
         </Link>
       </div>

@@ -30,21 +30,25 @@ export function NavBarHeader() {
   return (
     <nav className="nav-content">
       <ul className="nav-items">
-        <NavListItem location={location} navItem={"home"} navItemPath={"/"} />
+        <NavListItem
+          location={location}
+          navItem={"home"}
+          navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/"}
+        />
         <NavListItem
           location={location}
           navItem={"about"}
-          navItemPath={"/about"}
+          navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/about"}
         />
         <NavListItem
           location={location}
           navItem={"projects"}
-          navItemPath={"/projects"}
+          navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/projects"}
         />
         <NavListItem
           location={location}
           navItem={"contact"}
-          navItemPath={"/contact"}
+          navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/contact"}
         />
       </ul>
     </nav>
@@ -69,28 +73,28 @@ export function NavBarDropDown({
         <NavListItem
           location={location}
           navItem={"home"}
-          navItemPath={"/"}
+          navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/"}
           animationVar={animationVarChild}
           onClick={() => setIsDropDownOpen(false)}
         />
         <NavListItem
           location={location}
           navItem={"about"}
-          navItemPath={"/about"}
+          navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/about"}
           animationVar={animationVarChild}
           onClick={() => setIsDropDownOpen(false)}
         />
         <NavListItem
           location={location}
           navItem={"projects"}
-          navItemPath={"/projects"}
+          navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/projects"}
           animationVar={animationVarChild}
           onClick={() => setIsDropDownOpen(false)}
         />
         <NavListItem
           location={location}
           navItem={"contact"}
-          navItemPath={"/contact"}
+          navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/contact"}
           animationVar={animationVarChild}
           onClick={() => setIsDropDownOpen(false)}
         />

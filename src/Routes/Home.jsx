@@ -55,7 +55,9 @@ function Home() {
         </motion.div>
       </motion.div>
       <motion.div className="page-link-container" variants={item}>
-        <Link to="/about">more about me {"-->"}</Link>
+        <Link to="/Kristie-Nguyen-Khoa-Personal-Website/about">
+          more about me {"-->"}
+        </Link>
       </motion.div>
     </div>
   );

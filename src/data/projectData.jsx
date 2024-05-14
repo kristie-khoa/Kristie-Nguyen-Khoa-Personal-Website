@@ -2,15 +2,15 @@ export const projects = [
   {
     name: "Space Tourism App",
     images: [
-      "/project-screenshots/space-tourism-screenshots/desktop-1.png",
-      "/project-screenshots/space-tourism-screenshots/desktop-2.png",
-      "/project-screenshots/space-tourism-screenshots/desktop-3.png",
-      "/project-screenshots/space-tourism-screenshots/desktop-4.png",
-      "/project-screenshots/space-tourism-screenshots/mobile-1.png",
-      "/project-screenshots/space-tourism-screenshots/mobile-2.png",
-      "/project-screenshots/space-tourism-screenshots/mobile-3.png",
-      "/project-screenshots/space-tourism-screenshots/mobile-4.png",
-      "/project-screenshots/space-tourism-screenshots/mobile-5.png",
+      "project-screenshots/space-tourism-screenshots/desktop-1.png",
+      "project-screenshots/space-tourism-screenshots/desktop-2.png",
+      "project-screenshots/space-tourism-screenshots/desktop-3.png",
+      "project-screenshots/space-tourism-screenshots/desktop-4.png",
+      "project-screenshots/space-tourism-screenshots/mobile-1.png",
+      "project-screenshots/space-tourism-screenshots/mobile-2.png",
+      "project-screenshots/space-tourism-screenshots/mobile-3.png",
+      "project-screenshots/space-tourism-screenshots/mobile-4.png",
+      "project-screenshots/space-tourism-screenshots/mobile-5.png",
     ],
     url: "https://kristie-khoa.github.io/Space-Tourism/",
     description:
@@ -25,15 +25,15 @@ export const projects = [
   {
     name: "Trivia Game",
     images: [
-      "/project-screenshots/trivia-screenshots/desktop-1.png",
-      "/project-screenshots/trivia-screenshots/desktop-2.png",
-      "/project-screenshots/trivia-screenshots/desktop-3.png",
-      "/project-screenshots/trivia-screenshots/desktop-4.png",
-      "/project-screenshots/trivia-screenshots/desktop-5.png",
-      "/project-screenshots/trivia-screenshots/mobile-1.png",
-      "/project-screenshots/trivia-screenshots/mobile-2.png",
-      "/project-screenshots/trivia-screenshots/mobile-3.png",
-      "/project-screenshots/trivia-screenshots/mobile-4.png",
+      "project-screenshots/trivia-screenshots/desktop-1.png",
+      "project-screenshots/trivia-screenshots/desktop-2.png",
+      "project-screenshots/trivia-screenshots/desktop-3.png",
+      "project-screenshots/trivia-screenshots/desktop-4.png",
+      "project-screenshots/trivia-screenshots/desktop-5.png",
+      "project-screenshots/trivia-screenshots/mobile-1.png",
+      "project-screenshots/trivia-screenshots/mobile-2.png",
+      "project-screenshots/trivia-screenshots/mobile-3.png",
+      "project-screenshots/trivia-screenshots/mobile-4.png",
     ],
     url: "https://kristie-khoa.github.io/Trivia-Game/",
     description:
@@ -43,12 +43,12 @@ export const projects = [
   {
     name: "Multi Step Form",
     images: [
-      "/project-screenshots/multi-step-form-screenshots/desktop-1.png",
-      "/project-screenshots/multi-step-form-screenshots/desktop-2.png",
-      "/project-screenshots/multi-step-form-screenshots/desktop-3.png",
-      "/project-screenshots/multi-step-form-screenshots/desktop-4.png",
-      "/project-screenshots/multi-step-form-screenshots/desktop-5.png",
-      "/project-screenshots/multi-step-form-screenshots/desktop-6.png",
+      "project-screenshots/multi-step-form-screenshots/desktop-1.png",
+      "project-screenshots/multi-step-form-screenshots/desktop-2.png",
+      "project-screenshots/multi-step-form-screenshots/desktop-3.png",
+      "project-screenshots/multi-step-form-screenshots/desktop-4.png",
+      "project-screenshots/multi-step-form-screenshots/desktop-5.png",
+      "project-screenshots/multi-step-form-screenshots/desktop-6.png",
     ],
     url: "https://kristie-khoa.github.io/Multi-Step-Form/",
     description:
@@ -58,14 +58,14 @@ export const projects = [
   {
     name: "Wordle Game",
     images: [
-      "/project-screenshots/wordle-screenshots/desktop-1.png",
-      "/project-screenshots/wordle-screenshots/desktop-2.png",
-      "/project-screenshots/wordle-screenshots/desktop-3.png",
-      "/project-screenshots/wordle-screenshots/desktop-4.png",
-      "/project-screenshots/wordle-screenshots/desktop-5.png",
-      "/project-screenshots/wordle-screenshots/mobile-1.png",
-      "/project-screenshots/wordle-screenshots/mobile-2.png",
-      "/project-screenshots/wordle-screenshots/mobile-3.png",
+      "project-screenshots/wordle-screenshots/desktop-1.png",
+      "project-screenshots/wordle-screenshots/desktop-2.png",
+      "project-screenshots/wordle-screenshots/desktop-3.png",
+      "project-screenshots/wordle-screenshots/desktop-4.png",
+      "project-screenshots/wordle-screenshots/desktop-5.png",
+      "project-screenshots/wordle-screenshots/mobile-1.png",
+      "project-screenshots/wordle-screenshots/mobile-2.png",
+      "project-screenshots/wordle-screenshots/mobile-3.png",
     ],
     url: "https://kristie-khoa.github.io/Wordle-Game/",
     description:
@@ -75,12 +75,12 @@ export const projects = [
   {
     name: "Rick and Morty App",
     images: [
-      "/project-screenshots/rick-and-morty-screenshots/desktop-1.png",
-      "/project-screenshots/rick-and-morty-screenshots/desktop-2.png",
-      "/project-screenshots/rick-and-morty-screenshots/desktop-3.png",
-      "/project-screenshots/rick-and-morty-screenshots/mobile-1.png",
-      "/project-screenshots/rick-and-morty-screenshots/mobile-2.png",
-      "/project-screenshots/rick-and-morty-screenshots/mobile-3.png",
+      "project-screenshots/rick-and-morty-screenshots/desktop-1.png",
+      "project-screenshots/rick-and-morty-screenshots/desktop-2.png",
+      "project-screenshots/rick-and-morty-screenshots/desktop-3.png",
+      "project-screenshots/rick-and-morty-screenshots/mobile-1.png",
+      "project-screenshots/rick-and-morty-screenshots/mobile-2.png",
+      "project-screenshots/rick-and-morty-screenshots/mobile-3.png",
     ],
     url: "https://kristie-khoa.github.io/Rick-and-Morty-App/",
     description:
@@ -90,9 +90,9 @@ export const projects = [
   {
     name: "Weather App",
     images: [
-      "/project-screenshots/weather-app-screenshots/desktop-1.png",
-      "/project-screenshots/weather-app-screenshots/desktop-2.png",
-      "/project-screenshots/weather-app-screenshots/mobile-1.png",
+      "project-screenshots/weather-app-screenshots/desktop-1.png",
+      "project-screenshots/weather-app-screenshots/desktop-2.png",
+      "project-screenshots/weather-app-screenshots/mobile-1.png",
     ],
     url: "https://kristie-khoa.github.io/Weather-App/",
     description:
@@ -102,9 +102,9 @@ export const projects = [
   {
     name: "Email Subscription Form",
     images: [
-      "/project-screenshots/email-subscription-screenshots/desktop-1.png",
-      "/project-screenshots/email-subscription-screenshots/desktop-2.png",
-      "/project-screenshots/email-subscription-screenshots/desktop-3.png",
+      "project-screenshots/email-subscription-screenshots/desktop-1.png",
+      "project-screenshots/email-subscription-screenshots/desktop-2.png",
+      "project-screenshots/email-subscription-screenshots/desktop-3.png",
     ],
     url: "https://kristie-khoa.github.io/Email-Subscription-Form/",
     description:

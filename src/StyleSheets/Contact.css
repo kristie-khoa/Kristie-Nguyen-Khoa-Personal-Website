@@ -74,6 +74,34 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+
+  p {
+    margin-top: 0.5rem;
+  }
+}
+
+/* .success-pop-up-container {
+} */
+
+.exit-button {
+  color: var(--color-secondary-offset);
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.exit-button > * {
+  border-radius: 0;
+  z-index: 2;
+}
+
+.checkmark-icon {
+  margin: 1rem;
+  color: var(--color-secondary);
 }
 
 @media (max-width: 601px) {

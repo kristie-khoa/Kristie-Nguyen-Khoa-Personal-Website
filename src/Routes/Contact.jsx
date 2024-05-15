@@ -33,6 +33,7 @@ function Contact() {
       <motion.h1 className="page-header unused" variants={item}>
         Contact
       </motion.h1>
+
       <motion.p variants={item}>
         Get in touch or shoot me an email directly at{" "}
         <b>kristie.khoa@gmail.com</b>

@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
+import { FaRegCheckCircle, FaRegWindowClose } from "react-icons/fa";
 
 const ContactForm = () => {
   const dropDownContainer = {
@@ -33,7 +34,7 @@ const ContactForm = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    setStateMessage("Message sent!");
+    // setStateMessage("Thanks for reaching out!");
     setIsSubmitting(false);
     setIsPopUpOpen(true);
 
@@ -63,12 +64,16 @@ const ContactForm = () => {
         className="pop-up-overlay success-pop-up"
         variants={dropDownContainer}
       >
+        <button className="exit-button" onClick={() => setIsPopUpOpen(false)}>
+          <FaRegWindowClose size={20} />
+        </button>
         <div className="success-pop-up-container">
-          <button className="exit-button" onClick={() => setIsPopUpOpen(false)}>
-            x
-          </button>
-          <div>image of sent animation here</div>
-          <p>{stateMessage}</p>
+          <motion.div animate={{ scale: 2 }}>
+            <FaRegCheckCircle className="checkmark-icon" size={35} />
+          </motion.div>
+
+          <h3>Message Sent!</h3>
+          <p>Thanks for reaching out!</p>
         </div>
       </motion.div>
     </div>

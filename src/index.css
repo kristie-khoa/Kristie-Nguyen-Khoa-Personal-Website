@@ -21,7 +21,7 @@ body {
 }
 
 #root {
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   /* overflow-x: hidden; */
 }
@@ -205,7 +205,7 @@ a:hover {
 
 .background-gradient {
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   position: absolute;
   z-index: -1;
   left: 0;
@@ -218,7 +218,7 @@ a:hover {
     0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
   background-image: var(--background-live-gradient);
   animation: gradient 15s linear infinite;
-  height: 100vh;
+
   opacity: 0.7;
 }
 
@@ -244,7 +244,7 @@ a:hover {
 
 .background-mask {
   position: relative;
-  height: 100vh;
+  height: 100dvh;
   background: var(--background-mask-gradient);
   z-index: 1;
 }

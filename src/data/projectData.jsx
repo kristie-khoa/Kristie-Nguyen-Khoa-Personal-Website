@@ -1,5 +1,25 @@
 export const projects = [
   {
+    name: "Rent & Roam",
+    images: [
+      "project-screenshots/rent-and-roam-screenshots/desktop-1.png",
+      "project-screenshots/rent-and-roam-screenshots/desktop-2.png",
+      "project-screenshots/rent-and-roam-screenshots/desktop-3.png",
+      "project-screenshots/rent-and-roam-screenshots/desktop-4.png",
+      "project-screenshots/rent-and-roam-screenshots/desktop-5.png",
+      "project-screenshots/rent-and-roam-screenshots/desktop-6.png",
+      "project-screenshots/rent-and-roam-screenshots/desktop-7.png",
+      "project-screenshots/rent-and-roam-screenshots/mobile-1.png",
+      "project-screenshots/rent-and-roam-screenshots/mobile-2.png",
+      "project-screenshots/rent-and-roam-screenshots/mobile-3.png",
+      "project-screenshots/rent-and-roam-screenshots/mobile-4.png",
+    ],
+    url: "https://rent-and-roam.onrender.com/",
+    description:
+      "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    tags: ["JavaScript", "MongoDB", "Node", "Express", "Responsive Design"],
+  },
+  {
     name: "Space Tourism App",
     images: [
       "project-screenshots/space-tourism-screenshots/desktop-1.png",

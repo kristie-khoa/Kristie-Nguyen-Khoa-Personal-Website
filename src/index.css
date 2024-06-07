@@ -510,12 +510,15 @@ a:hover {
   z-index: 1;
 }
 
-@media (max-width: 601px) {
+@media (max-width: 630px) {
   .main-content {
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 2rem 0 2rem;
   }
 
   .page-header {
     margin: 0;
+  }
+  .page-link-container {
+    margin-top: 0;
   }
 }

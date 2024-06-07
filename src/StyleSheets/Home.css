@@ -27,7 +27,7 @@
 .home-header {
   font-size: 6rem;
   line-height: 1;
-  margin: 0 0 0.4em 0;
+  margin: 0 0 1rem 0;
   color: var(--color-secondary);
 }
 
@@ -122,7 +122,7 @@
     font-size: 1rem;
   }
 }
-@media (max-width: 601px) {
+@media (max-width: 630px) {
   .home-content {
     flex-direction: column;
     align-items: center;
@@ -130,6 +130,7 @@
   }
   .home-header {
     font-size: 4rem;
+    margin: 0 0 0.5rem 0;
   }
   .home-headshot {
     width: 60%;
@@ -137,7 +138,7 @@
   }
   .home.page {
     height: 100%;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
   }
 
   .home-content {

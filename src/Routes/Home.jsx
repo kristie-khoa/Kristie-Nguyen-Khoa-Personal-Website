@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import "../StyleSheets/Home.css";
 import { FaLinkedin, FaGithub, FaRegFileLines } from "react-icons/fa6";
 import resume from "/resume.pdf";
+import { FaAngleRight } from "react-icons/fa";
 
 function Home() {
   const container = {
@@ -63,7 +64,10 @@ function Home() {
         </motion.div>
         <motion.div className="page-link-container" variants={item}>
           <Link to="/Kristie-Nguyen-Khoa-Personal-Website/about">
-            more about me {"-->"}
+            <span className="next-link">more about me</span>
+            <span className="next-arr">
+              <FaAngleRight />
+            </span>
           </Link>
         </motion.div>
       </div>

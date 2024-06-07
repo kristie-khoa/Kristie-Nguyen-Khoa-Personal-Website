@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import ProjectItem from "../Components/ProjectItem";
 import { projects } from "../data/projectData";
 import "../StyleSheets/Projects.css";
+import { FaAngleRight } from "react-icons/fa";
 
 function Projects() {
   const container = {
@@ -102,7 +103,10 @@ function Projects() {
       </motion.p>
       <motion.div className="page-link-container" variants={item}>
         <Link to="/Kristie-Nguyen-Khoa-Personal-Website/contact">
-          Get In Touch {"-->"}
+          <span className="next-link">Get in touch</span>
+          <span className="next-arr">
+            <FaAngleRight />
+          </span>
         </Link>
       </motion.div>
     </motion.div>

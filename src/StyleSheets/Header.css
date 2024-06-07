@@ -99,7 +99,7 @@
 .drop-down-menu-container {
   right: 0;
   top: 0;
-  width: 50%;
+  width: 55%;
   height: 80vh;
   padding-bottom: 3em;
   margin: 1rem;
@@ -125,7 +125,7 @@
   .header {
     padding: 1.5rem 0 0 0;
   }
-  /* .stickyHeader {
-    border-radius: 0;
-  } */
+  .drop-down-menu-container {
+    height: 70vh;
+  }
 }

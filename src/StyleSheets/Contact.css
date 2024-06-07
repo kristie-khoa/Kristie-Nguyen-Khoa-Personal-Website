@@ -38,6 +38,7 @@
 
 .contact-form-inputs .right textarea {
   text-wrap: wrap;
+
   height: 100%;
   overflow-y: auto;
 }
@@ -104,7 +105,11 @@
   color: var(--color-secondary);
 }
 
-@media (max-width: 601px) {
+@media (max-width: 630px) {
+  .contact.page {
+    margin-bottom: 2rem;
+  }
+
   .contact-form-inputs {
     flex-direction: column;
     flex-grow: 1;

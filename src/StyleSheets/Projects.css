@@ -35,3 +35,8 @@
     flex-direction: column;
   }
 }
+@media (max-width: 630px) {
+  .projects.page {
+    padding-bottom: 2rem;
+  }
+}

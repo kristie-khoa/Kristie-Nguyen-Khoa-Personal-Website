@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "../StyleSheets/About.css";
+import { FaAngleRight } from "react-icons/fa";
 
 function About() {
   const container = {
@@ -68,7 +69,10 @@ function About() {
           to="/Kristie-Nguyen-Khoa-Personal-Website/projects"
           className="content-nav-link"
         >
-          Check out some of my projects {"-->"}
+          <span className="next-link">Check out my projects</span>
+          <span className="next-arr">
+            <FaAngleRight />
+          </span>
         </Link>
       </div>
     </div>

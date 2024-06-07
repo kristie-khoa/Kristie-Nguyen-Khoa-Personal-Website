@@ -91,9 +91,19 @@ function ProjectItem({ project }) {
           <FaAngleRight />
         </div>
       </div>
-      <span className="proj-item-img-count">{`${imageIndex + 1} / ${
-        project.images.length
-      }`}</span>
+      <div className="proj-item-img-count">
+        <div
+          className="proj-item-prev mobile-prev"
+          onClick={() => paginate(-1)}
+        >
+          <FaAngleRight />
+        </div>
+
+        <span>{`${imageIndex + 1} / ${project.images.length}`}</span>
+        <div className="proj-item-next mobile-next" onClick={() => paginate(1)}>
+          <FaAngleRight />
+        </div>
+      </div>
 
       <div className="proj-item-info">
         <b>Description:</b> {project.description}

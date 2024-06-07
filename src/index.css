@@ -511,6 +511,12 @@ a:hover {
 }
 
 @media (max-width: 630px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
   .main-content {
     padding: 0 2rem 0 2rem;
   }
@@ -520,5 +526,9 @@ a:hover {
   }
   .page-link-container {
     margin-top: 0;
+  }
+
+  h2 {
+    margin: 0;
   }
 }

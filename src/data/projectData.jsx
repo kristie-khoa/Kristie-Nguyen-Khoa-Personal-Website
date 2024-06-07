@@ -16,8 +16,15 @@ export const projects = [
     ],
     url: "https://rent-and-roam.onrender.com/",
     description:
-      "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
-    tags: ["JavaScript", "MongoDB", "Node", "Express", "Responsive Design"],
+      "Full-stack web application to facilitate rental property listings, detailed property views, and user reviews.",
+    tags: [
+      "JavaScript",
+      "MongoDB",
+      "Node",
+      "Express",
+      "BootStrap",
+      "Mapbox API",
+    ],
   },
   {
     name: "Space Tourism App",
@@ -34,11 +41,11 @@ export const projects = [
     ],
     url: "https://kristie-khoa.github.io/Space-Tourism/",
     description:
-      "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+      "Responsive and interactive website that showcases different space travel destinations and allows users to explore information about each destination!",
     tags: [
       "Frontend Mentor Design",
       "React",
-      "REact Router",
+      "React Router",
       "Responsive Design",
     ],
   },
@@ -57,7 +64,7 @@ export const projects = [
     ],
     url: "https://kristie-khoa.github.io/Trivia-Game/",
     description:
-      "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!",
+      "Engaging and interactive trivia website that allows users to test their knowledge across various categories and difficulty levels. Let's see how you stack up against others!",
     tags: ["Trivia Api", "React", "Local Storage"],
   },
   {
@@ -72,11 +79,11 @@ export const projects = [
     ],
     url: "https://kristie-khoa.github.io/Multi-Step-Form/",
     description:
-      "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
-    tags: ["React", "Form Validation"],
+      "This multi-step form guides users through the process of selecting, customizing, and calculating the cost of a subscription service",
+    tags: ["Front-end", "React", "Form Validation"],
   },
   {
-    name: "Wordle Game",
+    name: "Wordle Clone",
     images: [
       "project-screenshots/wordle-screenshots/desktop-1.png",
       "project-screenshots/wordle-screenshots/desktop-2.png",
@@ -89,8 +96,8 @@ export const projects = [
     ],
     url: "https://kristie-khoa.github.io/Wordle-Game/",
     description:
-      "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
-    tags: ["React", "Local Storage", "Game Logic"],
+      "This app replicates the popular word-guessing game, Wordle. Implemented game logic to handle word selection, user inputs, and feedback for correct, incorrect, and partially correct guesses.",
+    tags: ["JavaScript", "Save Game History", "Dictionary API", "Game Logic"],
   },
   {
     name: "Rick and Morty App",
@@ -104,8 +111,8 @@ export const projects = [
     ],
     url: "https://kristie-khoa.github.io/Rick-and-Morty-App/",
     description:
-      "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
-    tags: ["Rick and Morty API", "Responsive Design", "React"],
+      "Explore the characters and destinations of the Rick and Morty multiverse with this interactive application!",
+    tags: ["Rick and Morty API", "React Router", "Responsive Design"],
   },
   {
     name: "Weather App",
@@ -116,8 +123,8 @@ export const projects = [
     ],
     url: "https://kristie-khoa.github.io/Weather-App/",
     description:
-      "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
-    tags: ["Location Services", "Weather API", "React"],
+      "Display current weather conditions and forecasts for your locaqtion and various locations around the globe.",
+    tags: ["Geolocation", "Weather API"],
   },
   {
     name: "Email Subscription Form",
@@ -128,7 +135,7 @@ export const projects = [
     ],
     url: "https://kristie-khoa.github.io/Email-Subscription-Form/",
     description:
-      "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
+      "Simple email subscription form to validate users who have succesfully subscribed",
     tags: ["React", "Frontend Mentor Designs", "Form Validation"],
   },
 ];

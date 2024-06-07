@@ -44,10 +44,14 @@ function ProjectItem({ project }) {
     setPage([page + newDirection, newDirection]);
   };
 
+  let projectTags = project.tags.map((tag) => {
+    return <div className="project-item-tag">{tag}</div>;
+  });
+
   return (
     <div>
       <h2 className="proj-item-title">{project.name}</h2>
-      <a className="proj-item-live-link" href={project.url}>
+      <a className="proj-item-live-link" href={project.url} target="_blank">
         visit live site
       </a>
       <div className="proj-item-imgs-container">
@@ -91,9 +95,13 @@ function ProjectItem({ project }) {
         project.images.length
       }`}</span>
 
-      <div className="proj-item-info">{project.description}</div>
+      <div className="proj-item-info">
+        <b>Description:</b> {project.description}
+      </div>
       <br></br>
-      <div className="proj-item-info">This will be tags on the project</div>
+      <div className="proj-item-info">
+        <b>Skills:</b> {projectTags}
+      </div>
     </div>
   );
 }

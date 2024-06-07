@@ -9,7 +9,7 @@
   font-family: var(--font-display);
   align-self: last baseline;
   padding: 0 0.15em;
-  background-image: linear-gradient(var(--color-border) 0 0);
+  background-image: linear-gradient(var(--color-accent) 0 0);
   background-position: 0 100%;
   background-size: 100% 0.5em;
   background-repeat: no-repeat;
@@ -20,6 +20,7 @@
   margin-left: 0.5em;
 }
 .header-logo {
+  /* color: var(--color-secondary); */
   background-image: none;
   margin-right: auto;
   min-width: 233px;

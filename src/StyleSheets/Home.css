@@ -12,6 +12,14 @@
   background-color: #3dffd2;
 }
 
+.flower {
+  color: var(--color-secondary);
+  font-size: 6rem;
+  position: absolute;
+  top: -10%;
+  left: -10%;
+}
+
 .home-content {
   font-size: 1.35rem;
 }
@@ -20,7 +28,7 @@
   font-size: 6rem;
   line-height: 1;
   margin: 0 0 0.4em 0;
-  color: var(--color-text);
+  color: var(--color-secondary);
 }
 
 .home-pre-header {
@@ -28,7 +36,7 @@
   font-weight: 700;
   margin: 0;
   font-family: var(--font-basic);
-  color: var(--color-secondary);
+  color: var(--color-accent-text);
 }
 
 .home-headshot {
@@ -39,6 +47,43 @@
 .home-content {
   display: flex;
 }
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.link {
+  /* background-size: 100% 0.65em; */
+  color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.link > :first-child {
+  font-size: 2rem;
+  border-radius: 0;
+  margin-bottom: 0.25rem;
+}
+/* 
+.link:hover {
+  filter: brightness(80%);
+} */
+.link span {
+  color: var(--color-text);
+}
+/* .link:hover span a {
+  background-image: linear-gradient(var(--color-secondary) 0 0);
+} */
+
+/* .links > * {
+  font-size: 2rem;
+  border-radius: 0;
+  margin: 0.5rem;
+} */
 
 @media (max-width: 930px) {
   .home-headshot {
@@ -69,9 +114,7 @@
   .home-pre-header {
     font-size: 1rem;
   }
-  .home-header {
-    font-size: 3rem;
-  }
+
   .home p {
     font-size: 1rem;
   }
@@ -102,5 +145,10 @@
   .home-right {
     margin: 0;
     text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .home-header {
+    font-size: 3rem;
   }
 }

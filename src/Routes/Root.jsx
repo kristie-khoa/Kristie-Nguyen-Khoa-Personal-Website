@@ -6,6 +6,7 @@ import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import { BsStars } from "react-icons/bs";
 
 function Root() {
   const location = useLocation().pathname;
@@ -59,7 +60,7 @@ function Root() {
     >
       {/* <button onClick={toggleTheme}>Toggle</button> */}
       <div className="background-gradient">
-        <div className="background-mask"></div>
+        {/* <div className="background-mask"></div> */}
       </div>
       <motion.div
         className="layout-container"

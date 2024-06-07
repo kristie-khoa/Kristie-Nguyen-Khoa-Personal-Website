@@ -38,6 +38,33 @@ function Projects() {
     );
   });
 
+  const skills = {
+    languages: ["JavaScript", "TypeScript"],
+    technologies: ["HTML", "CSS", "React.js", "Express.js"],
+    databases: ["MongoDB"],
+    other: [
+      "Git",
+      "Node.js",
+      "EJS",
+      "Bootstrap",
+      "Framer Motion",
+      "Material UI",
+    ],
+  };
+
+  const languages = skills.languages.map((skill) => {
+    return <div className="project-item-tag">{skill}</div>;
+  });
+  const technologies = skills.technologies.map((skill) => {
+    return <div className="project-item-tag">{skill}</div>;
+  });
+  const databases = skills.databases.map((skill) => {
+    return <div className="project-item-tag">{skill}</div>;
+  });
+  const other = skills.other.map((skill) => {
+    return <div className="project-item-tag">{skill}</div>;
+  });
+
   return (
     // <div >
     <motion.div
@@ -55,18 +82,23 @@ function Projects() {
       <motion.h2 className="page-subheader" variants={item}>
         Skills
       </motion.h2>
-      <motion.p variants={item}>
-        I just ended an 8 year adventure as a Senior Engineer at Google. My most
-        recent team was Magenta making music and art with Machine Learning; I
-        built the majority of the user-and-model interactions, such as these
-        ones. Here's the publications I was on during that time. In 2020 I also
-        did a 6 month fellowship with the Trevor project, where I lead a team
-        that worked on classifying suicidal ideation posts on a social media
-        platform. Prior to 2018, I worked on Polymer, and was a big advocate for
-        Web Components in both the open source and standards communities. I
-        maintained and owned one of the first (and at the time, largest!) suite
-        of custom elements. During this time I was also a member of the Emoji
-        subcommittee, which is a career high.
+      <motion.p className="projects-skills" variants={item}>
+        <ul>
+          <li>
+            <b>Languages:</b>
+            <div className="project-tags">{languages}</div>
+          </li>
+          <li>
+            <b>Web Technologies & Frameworks:</b>
+            <div className="project-tags">{technologies}</div>
+          </li>
+          <li>
+            <b>Databases:</b> <div className="project-tags">{databases}</div>
+          </li>
+          <li>
+            <b>Other:</b> <div className="project-tags">{other}</div>
+          </li>
+        </ul>
       </motion.p>
       <motion.div className="page-link-container" variants={item}>
         <Link to="/Kristie-Nguyen-Khoa-Personal-Website/contact">

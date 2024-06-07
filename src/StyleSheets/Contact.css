@@ -50,14 +50,14 @@
 .submit-form-btn {
   text-align: center;
   width: 4rem;
-  background-color: var(--color-secondary-offset);
-  border: 0.1em solid var(--color-secondary);
+  background-color: var(--color-accent);
+  border: 0.1em solid var(--color-accent);
 }
 
 .submit-form-btn:hover {
-  color: var(--color-bg-offset);
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary-offset);
+  /* color: var(--color-bg-offset); */
+  border: 2px solid var(--color-accent-offset);
+  /* border-color: var(--color-secondary-offset); */
 }
 
 .success-pop-up {
@@ -84,7 +84,7 @@
 } */
 
 .exit-button {
-  color: var(--color-secondary-offset);
+  color: var(--color-secondary);
   position: absolute;
   top: 1rem;
   right: 1rem;

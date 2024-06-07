@@ -11,10 +11,13 @@
   font-size: 1.75rem;
   width: 100%;
   text-align: center;
+  background-image: linear-gradient(var(--color-secondary-offset) 0 0);
+  /* COLOR TEST */
 }
 
 .drop-down-nav-items li a {
-  background-image: linear-gradient(var(--color-secondary-offset) 0 0);
+  /* background-image: linear-gradient(var(--color-secondary-offset) 0 0); COLOR TEST */
+  background-image: linear-gradient(var(--color-accent) 0 0);
 }
 
 .nav-content {
@@ -43,6 +46,7 @@
 .nav-link {
   text-decoration: none;
   color: inherit;
+  background-image: linear-gradient(var(--color-accent) 0 0);
   overflow: hidden;
   /* transition: font-size ease 0.3s; */
 }
@@ -51,6 +55,7 @@
   font-size: 1.15rem;
   font-weight: 400;
   background-size: 100% 0.65em;
+  /* background-image: linear-gradient(var(--color-secondary-offset) 0 0); COLOR TEST */
   background-image: linear-gradient(var(--color-secondary-offset) 0 0);
 }
 

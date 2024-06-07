@@ -122,6 +122,9 @@
   .header-inner-container {
     margin: 0 2rem;
   }
+  .header {
+    padding: 1.5rem 0 0 0;
+  }
   /* .stickyHeader {
     border-radius: 0;
   } */

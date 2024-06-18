@@ -2,11 +2,6 @@ import { Outlet, useLocation } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import Header from "../Components/Header/Header";
 import { motion } from "framer-motion";
-import Home from "./Home";
-import About from "./About";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import { BsStars } from "react-icons/bs";
 
 function Root() {
   const location = useLocation().pathname;
@@ -88,50 +83,3 @@ function Root() {
 }
 
 export default Root;
-
-//    <motion.div
-//       initial={{ y: -20 }}
-//       animate={{ y: 0 }}
-//       // exit={{ y: 0 }}
-//       className="layout"
-//     >
-//       {/* <button onClick={toggleTheme}>Toggle</button> */}
-//       <div className="background-gradient">
-//         <div className="background-mask"></div>
-//       </div>
-//       <motion.div
-//         className="layout-container"
-//         variants={container}
-//         // animate="visible"
-//       >
-//         <motion.div variants={item}>
-//           <Header />
-//         </motion.div>
-
-//         <motion.div className="main-content" key={location} variants={item}>
-//           <h1>Hello</h1>
-//           {/* <Outlet /> */}
-//         </motion.div>
-//       </motion.div>
-//     </motion.div>
-
-// <div className="layout">
-// {/* <button onClick={toggleTheme}>Toggle</button> */}
-// <div className="background-gradient">
-//   <div className="background-mask"></div>
-// </div>
-// <motion.div
-//   className="layout-container"
-//   variants={container}
-//   initial="hidden"
-//   animate="visible"
-// >
-//   <motion.div variants={item}>
-//     <Header />
-//   </motion.div>
-
-//   <motion.div className="main-content" key={location} variants={item}>
-//     <Outlet />
-//   </motion.div>
-// </motion.div>
-// </div>

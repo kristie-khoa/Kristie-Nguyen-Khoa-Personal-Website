@@ -3,6 +3,10 @@ import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { FaRegCheckCircle, FaRegWindowClose } from "react-icons/fa";
 
+const serviceKey = import.meta.env.VITE_API_EMAIL_SERVICE_KEY;
+const templateKey = import.meta.env.VITE_API_EMAIL_TEMPLATE_KEY;
+const emailKey = import.meta.env.VITE_API_EMAIL_KEY;
+
 const ContactForm = () => {
   const dropDownContainer = {
     visible: {
@@ -29,33 +33,36 @@ const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [stateMessage, setStateMessage] = useState(null);
   const [isPopUpOpen, setIsPopUpOpen] = useState(false);
+  const [formValueName, setFormValueName] = useState("");
+  const [formValueEmail, setFormValueEmail] = useState("");
+  const [formValueMessage, setFormValueMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // setStateMessage("Thanks for reaching out!");
-    setIsSubmitting(false);
-    setIsPopUpOpen(true);
-
-    // emailjs
-    //   .sendForm("service_cv49wlm", "template_a56ubkh", form.current, {
-    //     publicKey: "J8CYx211q5BHDlKbB",
-    //   })
-    //   .then(
-    //     () => {
-    //       setStateMessage("Message sent!");
-    //       setIsSubmitting(false);
-    //       setIsPopUpOpen(true);
-    //       clearForm();
-    //     },
-    //     (error) => {
-    //       setStateMessage("Something went wrong, please try again later");
-    //       setIsSubmitting(false);
-    //     }
-    //   );
-    const clearForm = () => e.target.reset();
-    clearForm();
+    emailjs
+      .sendForm(serviceKey, templateKey, form.current, {
+        publicKey: emailKey,
+      })
+      .then(
+        () => {
+          setStateMessage("Message sent!");
+          setIsSubmitting(false);
+          setIsPopUpOpen(true);
+          clearForm();
+        },
+        (error) => {
+          setStateMessage("Something went wrong, please try again later");
+          setIsSubmitting(false);
+        }
+      );
+    const clearForm = () => {
+      setFormValueName("");
+      setFormValueEmail("");
+      setFormValueMessage("");
+      e.target.reset();
+    };
   };
 
   const successPopUp = (
@@ -72,7 +79,7 @@ const ContactForm = () => {
             <FaRegCheckCircle className="checkmark-icon" size={35} />
           </motion.div>
 
-          <h3>Message Sent!</h3>
+          <h3>{stateMessage}</h3>
           <p>Thanks for reaching out!</p>
         </div>
       </motion.div>
@@ -90,23 +97,51 @@ const ContactForm = () => {
         <div className="contact-form-inputs">
           <div className="left">
             <p>Name:</p>
-            <input type="text" name="user_name" placeholder="Name" />
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Name"
+              onChange={(e) => setFormValueName(e.target.value)}
+              value={formValueName}
+              required
+            />
             <p>Email:</p>
-            <input type="email" name="user_email" placeholder="email" />
+            <input
+              type="email"
+              name="user_email"
+              onChange={(e) => setFormValueEmail(e.target.value)}
+              value={formValueEmail}
+              placeholder="email"
+              required
+            />
           </div>
           <div className="right">
             <p>Message:</p>
-            <textarea name="message" placeholder="Message" />
+            <textarea
+              name="message"
+              placeholder="Message"
+              onChange={(e) => setFormValueMessage(e.target.value)}
+              value={formValueMessage}
+              required
+            />
           </div>
         </div>
         <div className="submit-container">
           <button
             className="submit-form-btn"
             type="submit"
-            disabled={isSubmitting}
-            // onClick={() => {
-            //   setIsPopUpOpen(true);
-            // }}
+            disabled={
+              (!formValueEmail && !formValueName && !formValueMessage) ||
+              isSubmitting
+            }
+            onClick={() => {
+              if (
+                (!formValueEmail && !formValueName && !formValueMessage) ||
+                isSubmitting
+              ) {
+                setIsPopUpOpen(true);
+              }
+            }}
           >
             Send
           </button>

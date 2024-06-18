@@ -37,14 +37,15 @@ export function NavBarHeader() {
         />
         <NavListItem
           location={location}
-          navItem={"about"}
-          navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/about"}
-        />
-        <NavListItem
-          location={location}
           navItem={"projects"}
           navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/projects"}
         />
+        <NavListItem
+          location={location}
+          navItem={"about"}
+          navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/about"}
+        />
+
         <NavListItem
           location={location}
           navItem={"contact"}
@@ -79,18 +80,19 @@ export function NavBarDropDown({
         />
         <NavListItem
           location={location}
-          navItem={"about"}
-          navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/about"}
-          animationVar={animationVarChild}
-          onClick={() => setIsDropDownOpen(false)}
-        />
-        <NavListItem
-          location={location}
           navItem={"projects"}
           navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/projects"}
           animationVar={animationVarChild}
           onClick={() => setIsDropDownOpen(false)}
         />
+        <NavListItem
+          location={location}
+          navItem={"about"}
+          navItemPath={"/Kristie-Nguyen-Khoa-Personal-Website/about"}
+          animationVar={animationVarChild}
+          onClick={() => setIsDropDownOpen(false)}
+        />
+
         <NavListItem
           location={location}
           navItem={"contact"}

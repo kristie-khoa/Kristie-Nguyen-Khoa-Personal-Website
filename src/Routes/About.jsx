@@ -35,41 +35,42 @@ function About() {
         </motion.h2>
         <motion.p variants={item}>
           I began my journey into the world of web development about a year ago,
-          when I decided to try my hand at creating a custom pricing calculator.
-          I was in a tech sales role, looking+ to streamline my quote building
-          process. What started as a goal to improve my sales process, had
-          quickly turned into a curiosity and passion for turning ideas and
-          concepts into functionality through code. Fast-forward to today, I've
-          dedicated the past year to learning necessary development tools and
-          skills, and buiilding profieciency through application across a
-          variety of experiences.
+          when I decided to try my hand at building a custom pricing calculator.
+          I was previously in a tech sales role, looking to streamline my sales
+          process, but more importantly, looking for an outlet for my curiosity
+          to learn something new. This simple goal had quickly turned into a
+          greater interst for turning ideas into functionality through code.
+          Fast-forward to today, I've dedicated the past year to learning the
+          lastest development tools, and building proficiancy through practice
+          across a variety of diverse projects.
         </motion.p>
         <br></br>
         <motion.p variants={item}>
           While my time in the coding space is relatively young, I've not only
-          been able to work on my own educational/passion projects, but also had
-          the priviledge of collaborating with startups and graphic designers to
-          build software. My focus is on building functional, reactive, and
+          been able to work on my own educational projects, but also had the
+          priviledge of collaborating with experienced web developers to build
+          software. My focus is on building functional, responsive, and
           user-friendly interfaces that not only look good, but are also built
           well beneath the surface.
         </motion.p>
         <br></br>
         <motion.p variants={item}>
-          When I'm not at my desk, you'll usually find me going for a run, at
-          the driving range trying to perfect my swing(still got a long way to
-          go), or relaxing at home while youtube autoplays poker tournament in
-          the background.
+          When I'm not at my desk, you'll usually find me outside on a run,
+          playing pickleball with friends, or at the driving range trying to
+          perfect my swing(still have a long way to go). Otherwise, I'm probably
+          recharging at home, watching the latest netflix series, or reading a
+          good book.
         </motion.p>
-        <motion.h2 className="page-subheader" variants={item}>
-          Experience
-        </motion.h2>
+        {/* <motion.h2 className="page-subheader" variants={item}>
+
+        </motion.h2> */}
       </motion.div>
       <div className="page-link-container">
         <Link
-          to="/Kristie-Nguyen-Khoa-Personal-Website/projects"
+          to="/Kristie-Nguyen-Khoa-Personal-Website/contact"
           className="content-nav-link"
         >
-          <span className="next-link">Check out my projects</span>
+          <span className="next-link">Get in touch</span>
           <span className="next-arr">
             <FaAngleRight />
           </span>

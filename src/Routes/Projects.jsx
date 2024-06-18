@@ -102,8 +102,8 @@ function Projects() {
         </ul>
       </motion.p>
       <motion.div className="page-link-container" variants={item}>
-        <Link to="/Kristie-Nguyen-Khoa-Personal-Website/contact">
-          <span className="next-link">Get in touch</span>
+        <Link to="/Kristie-Nguyen-Khoa-Personal-Website/about">
+          <span className="next-link">More about me</span>
           <span className="next-arr">
             <FaAngleRight />
           </span>

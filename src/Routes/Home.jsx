@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import "../StyleSheets/Home.css";
 import { FaLinkedin, FaGithub, FaRegFileLines } from "react-icons/fa6";
-import resume from "/resume.pdf";
+import resume1 from "/resume1.pdf";
 import { FaAngleRight } from "react-icons/fa";
 
 function Home() {
@@ -57,14 +57,15 @@ function Home() {
             <motion.div className="home-content" variants={item}>
               <p>
                 I like turning ideas into engaging, responsive, and
-                user-intuitive digital experiences.
+                user-intuitive digital experiences. I am currently open to new
+                opportunities.
               </p>
             </motion.div>
           </motion.div>
         </motion.div>
         <motion.div className="page-link-container" variants={item}>
-          <Link to="/Kristie-Nguyen-Khoa-Personal-Website/about">
-            <span className="next-link">more about me</span>
+          <Link to="/Kristie-Nguyen-Khoa-Personal-Website/projects">
+            <span className="next-link">Check out my projects</span>
             <span className="next-arr">
               <FaAngleRight />
             </span>
@@ -88,7 +89,7 @@ function Home() {
           <FaGithub />
           <span>GitHub</span>
         </a>
-        <a href={resume} target="_blank" className="link">
+        <a href={resume1} target="_blank" className="link">
           <FaRegFileLines />
           <span>Resumé</span>
         </a>

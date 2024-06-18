@@ -24,9 +24,9 @@ jobs:
 
       - name: Build project
         env:
-          VITE_API_EMAIL_KEY: ${{ env.VITE_API_EMAIL_KEY }}
-          VITE_API_EMAIL_SERVICE_KEY: ${{ env.VITE_API_EMAIL_SERVICE_KEY }}
-          VITE_API_EMAIL_TEMPLATE_KEY: ${{ env.VITE_API_EMAIL_TEMPLATE_KEY }}
+          VITE_API_EMAIL_KEY: ${{ secrets.VITE_API_EMAIL_KEY }}
+          VITE_API_EMAIL_SERVICE_KEY: ${{ secrets.VITE_API_EMAIL_SERVICE_KEY }}
+          VITE_API_EMAIL_TEMPLATE_KEY: ${{ secrets.VITE_API_EMAIL_TEMPLATE_KEY }}
         run: npm run build
 
       - name: Upload production-ready build files

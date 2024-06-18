@@ -37,7 +37,7 @@ function Contact() {
       <motion.p variants={item}>
         Get in touch or shoot me an email directly at
         <a href="kristie.khoa3@gmail.com">
-          <b>kristie.khoa3@gmail.com</b>
+          <b>kristie.khoa@gmail.com</b>
         </a>
       </motion.p>
       <motion.div variants={item} className="contact-form">

@@ -36,7 +36,7 @@ function Contact() {
 
       <motion.p variants={item}>
         Get in touch or shoot me an email directly at
-        <a href="kristie.khoa3@gmail.com">
+        <a href="mailto:kristie.khoa@gmail.com">
           <b>kristie.khoa@gmail.com</b>
         </a>
       </motion.p>

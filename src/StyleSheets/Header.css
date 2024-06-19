@@ -128,4 +128,7 @@
   .drop-down-menu-container {
     height: 70vh;
   }
+  .header:has(.stickyHeader) {
+    padding: 0.5rem 0 01rem 0;
+  }
 }

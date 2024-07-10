@@ -43,7 +43,7 @@ export const projects = [
     description:
       "Responsive and interactive website that showcases different space travel destinations and allows users to explore information about each destination!",
     tags: [
-      "Frontend Mentor Design",
+      "Implement Design Mockup",
       "React",
       "React Router",
       "Responsive Design",
@@ -136,7 +136,7 @@ export const projects = [
     url: "https://kristie-khoa.github.io/Email-Subscription-Form/",
     description:
       "Simple email subscription form to validate users who have succesfully subscribed",
-    tags: ["React", "Frontend Mentor Designs", "Form Validation"],
+    tags: ["React", "Form Validation", "Implement Design Mockup"],
   },
 ];
 
